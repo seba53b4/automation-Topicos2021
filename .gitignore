@@ -105,3 +105,5 @@ dist
 #Cypress
 cypress/test-data
 cypress/results
+allure-reports
+allure-result
