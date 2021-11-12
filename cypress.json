@@ -1,5 +1,5 @@
 {
-    "headless": false,
+    
     "testFiles": "*.spec.js",
     "viewportWidth": 1280,
     "viewportHeight": 720,
@@ -9,7 +9,7 @@
     "videosFolder": "/cypress/test-data/videos",
     "env": {
         "url": "https://topicos.netlify.app/"
-    }
-    
+    },
+    "screenshotOnRunFailure":true
     
 }

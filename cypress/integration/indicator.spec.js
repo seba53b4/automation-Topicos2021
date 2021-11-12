@@ -3,7 +3,7 @@
 const  { MenuVerticalPage }  = require ('../pages/menuVerticalPage');
 const { SamplesPage } = require('../pages/samplesPage');
 
-describe('Test Indicator', () => {
+describe('Test on Indicator', () => {
     beforeEach(() => {
       
       cy.visit(Cypress.env('url'));
@@ -14,13 +14,10 @@ describe('Test Indicator', () => {
         const menuVerticalPage = new MenuVerticalPage();
         const samplesPage = new SamplesPage();
 
-        console.log();
         menuVerticalPage.goToSamples();
         samplesPage.addNewIndicator();
 
     })
-
     
-  
-  })
+  });
   
