@@ -1,0 +1,15 @@
+{
+    "headless": false,
+    "testFiles": "*.spec.js",
+    "viewportWidth": 1280,
+    "viewportHeight": 720,
+    "defaultCommandTimeout": 4000,
+    "pageLoadTimeout": 30000,
+    "screenshotsFolder": "cypress/test-data/screenshots",
+    "videosFolder": "/cypress/test-data/videos",
+    "env": {
+        "url": "https://topicos.netlify.app/"
+    }
+    
+    
+}
