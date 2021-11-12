@@ -104,3 +104,4 @@ dist
 .tern-port
 #Cypress
 cypress/test-data
+cypress/results
