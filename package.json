@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@shelex/cypress-allure-plugin": "^2.19.5",
-    "allure-commandline": "^2.13.8"
+    "allure-commandline": "^2.13.8",
+    "string-random": "^0.1.3"
   }
 }
