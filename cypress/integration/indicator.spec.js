@@ -22,7 +22,7 @@ describe('Test on Indicator - Usuario Deres', () => {
       loginPage.doLogin('deres@gmail.com','hola1234');
       menuVerticalPage.goToIndicator();
       indicatorsPage.addNewIndicatorDirect({
-        nombre: 'Test Indicator', 
+        nombre: 'Test Indicator Directo - '+ random(4, {specials: false, numbers: true, letters: true}), 
         descripcion: 'Some content', 
         area: 'Petroleo', 
         unidad: 'L', 
