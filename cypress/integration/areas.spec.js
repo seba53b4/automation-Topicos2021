@@ -14,7 +14,7 @@ describe('Test on Area', () => {
 
     })
   
-    it('Create new Area', () => {
+    it('Crear nueva Area', () => {
       const loginPage = new LoginPage(); 
       const menuVerticalPage = new MenuVerticalPage();
       const areaPage = new AreaPage();

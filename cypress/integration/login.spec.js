@@ -4,7 +4,7 @@ const  { MenuVerticalPage }  = require ('../pages/menuVerticalPage');
 const { SamplesPage } = require('../pages/samplesPage');
 const { LoginPage } = require('../pages/loginPage');
 
-describe('Test on Area', () => {
+describe('Test on login', () => {
     beforeEach(() => {
       
       cy.visit(Cypress.env('url'));
@@ -12,7 +12,7 @@ describe('Test on Area', () => {
     })
   
 
-    it('Create new samples', () => {
+    it('Login', () => {
       const loginPage = new LoginPage(); 
       const menuVerticalPage = new MenuVerticalPage();
       const samplesPage = new SamplesPage();

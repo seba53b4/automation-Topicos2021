@@ -11,7 +11,7 @@ describe('Test on Samples - Usuario Empresa', () => {
 
     })
   
-    it('Create new samples', () => {
+    it('Crear nueva muestra', () => {
         const menuVerticalPage = new MenuVerticalPage();
         const samplesPage = new SamplesPage();
         const loginPage = new LoginPage(); 
