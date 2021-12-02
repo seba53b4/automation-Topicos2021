@@ -9,7 +9,7 @@
             "request": "launch",
             "name": "Launch Program",
             "scripts": {
-                "test": "cy:run"
+                "test": "debug"
               },
             "skipFiles": [
                 "<node_internals>/**"

@@ -1,7 +1,9 @@
+const { BasePage } = require("./basePage");
 
-const EmpresaPage = class EmpresaPage {
+const EmpresaPage = class EmpresaPage extends BasePage {
 
     constructor(){
+        super();
         this.locators = {
             btn_crear: `.MuiPaper-elevation0 > .MuiButtonBase-root`,
             input_name: `.MuiPaper-elevation0 > .MuiButtonBase-root`,

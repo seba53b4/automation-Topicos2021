@@ -1,8 +1,10 @@
+const { BasePage } = require("./basePage")
 
 
-const MenuVerticalPage = class MenuVerticalPage {
+const MenuVerticalPage = class MenuVerticalPage extends BasePage {
 
     constructor(){
+        super();
         this.locators = {
             btn_indicator: `[href="/indicadores"] > .MuiListItemText-root > .MuiTypography-root`,
             btn_data: `[href="/datos"] > .MuiListItemText-root > .MuiTypography-root`,

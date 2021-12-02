@@ -1,6 +1,7 @@
+const { BasePage } = require("./basePage")
 
 
-const SamplesPage = class SamplesPage {
+const SamplesPage = class SamplesPage extends BasePage{
 
     constructor(){
         this.locators = {

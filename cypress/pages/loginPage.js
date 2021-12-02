@@ -1,10 +1,11 @@
+const { BasePage } = require("./basePage");
 
 
 
-const LoginPage = class LoginPage {
+const LoginPage = class LoginPage extends BasePage{
 
     constructor(){
-
+      super();
         this.locators = {
             input_email: `:nth-child(2) > .MuiOutlinedInput-root > .MuiOutlinedInput-input`,
             input_passw: `:nth-child(3) > .MuiOutlinedInput-root > .MuiOutlinedInput-input`,

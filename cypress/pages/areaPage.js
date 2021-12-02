@@ -1,7 +1,9 @@
+const { BasePage } = require("./basePage")
 
-const AreaPage = class AreaPage {
+const AreaPage = class AreaPage extends BasePage{
 
     constructor(){
+      super();
         this.locators = {
             btn_crearArea: `.MuiPaper-elevation0 > .MuiButtonBase-root`,
             input_nombre: `:nth-child(1) > .MuiOutlinedInput-root > .MuiOutlinedInput-input`,
